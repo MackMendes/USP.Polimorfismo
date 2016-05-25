@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USP.Domain", "USP.Domain\USP.Domain.csproj", "{73730F42-0DA3-4D19-AB9C-6D08D60E38A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USP.VideoAula.Domain", "src\USP.VideoAula.Domain\USP.VideoAula.Domain.csproj", "{73730F42-0DA3-4D19-AB9C-6D08D60E38A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USP.UI", "USP.UI\USP.UI.csproj", "{DBB652E6-394D-43BF-A6C3-D236F379EA90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USP.VideoAula.UI", "src\USP.VideoAula.UI\USP.VideoAula.UI.csproj", "{DBB652E6-394D-43BF-A6C3-D236F379EA90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vídeo Aula", "Vídeo Aula", "{7A3838FC-6EC8-4D31-89DE-EB826A54D722}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Micro Aula", "Micro Aula", "{C820E184-DD62-4498-8387-2017442235D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USP.MicroAula.Domain", "src\USP.MicroAula.Domain\USP.MicroAula.Domain.csproj", "{5D9D6B5F-95EC-4B11-8B8E-A6965F27B081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USP.MicroAula.UI", "src\USP.MicroAula.UI\USP.MicroAula.UI.csproj", "{B72325EA-BA93-4E64-AAFF-39FFFF525918}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +29,22 @@ Global
 		{DBB652E6-394D-43BF-A6C3-D236F379EA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBB652E6-394D-43BF-A6C3-D236F379EA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBB652E6-394D-43BF-A6C3-D236F379EA90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D9D6B5F-95EC-4B11-8B8E-A6965F27B081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D9D6B5F-95EC-4B11-8B8E-A6965F27B081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D9D6B5F-95EC-4B11-8B8E-A6965F27B081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D9D6B5F-95EC-4B11-8B8E-A6965F27B081}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72325EA-BA93-4E64-AAFF-39FFFF525918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72325EA-BA93-4E64-AAFF-39FFFF525918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72325EA-BA93-4E64-AAFF-39FFFF525918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72325EA-BA93-4E64-AAFF-39FFFF525918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73730F42-0DA3-4D19-AB9C-6D08D60E38A8} = {7A3838FC-6EC8-4D31-89DE-EB826A54D722}
+		{DBB652E6-394D-43BF-A6C3-D236F379EA90} = {7A3838FC-6EC8-4D31-89DE-EB826A54D722}
+		{5D9D6B5F-95EC-4B11-8B8E-A6965F27B081} = {C820E184-DD62-4498-8387-2017442235D0}
+		{B72325EA-BA93-4E64-AAFF-39FFFF525918} = {C820E184-DD62-4498-8387-2017442235D0}
 	EndGlobalSection
 EndGlobal

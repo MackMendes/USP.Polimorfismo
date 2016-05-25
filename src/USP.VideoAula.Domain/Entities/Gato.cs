@@ -1,4 +1,4 @@
-﻿namespace USP.Domain.Entities
+﻿namespace USP.VideoAula.Domain.Entities
 {
     public class Gato : Base.Animal
     {

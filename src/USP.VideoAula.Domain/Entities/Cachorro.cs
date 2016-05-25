@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace USP.Domain.Entities
+namespace USP.VideoAula.Domain.Entities
 {
     public class Cachorro : Base.Animal
     {

@@ -1,4 +1,4 @@
-﻿namespace USP.Domain.Entities.Base
+﻿namespace USP.VideoAula.Domain.Entities.Base
 {
     public abstract class Animal
     {

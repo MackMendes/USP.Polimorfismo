@@ -1,8 +1,8 @@
 ﻿using System;
-using USP.Domain.Entities;
-using USP.Domain.Entities.Base;
+using USP.VideoAula.Domain.Entities;
+using USP.VideoAula.Domain.Entities.Base;
 
-namespace USP.UI
+namespace USP.VideoAula.UI
 {
     class Program
     {
