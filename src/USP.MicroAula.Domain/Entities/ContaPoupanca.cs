@@ -7,14 +7,14 @@
             base.Saldo += 0.02m;
         }
 
-        public override string Deposita(decimal valor)
+        public override string Depositar(decimal valor)
         {
             this.AplicaRendimentoPoupanca();
             base.Saldo += valor;
             return $"Depósito do valor {valor} na CONTA POUPANÇA, foi realizado com sucesso.";
         }
 
-        public override string Saque(decimal valor)
+        public override string Saquar(decimal valor)
         {
             if (valor <= 0 || (base.Saldo - valor) <= 0)
                 return "Saldo insulficiente na CONTA POUPANÇA.";

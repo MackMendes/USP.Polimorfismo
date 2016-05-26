@@ -9,13 +9,13 @@
 
         private const decimal _valorTaxa = 15m;
 
-        public override string Deposita(decimal valor)
+        public override string Depositar(decimal valor)
         {
             base.Saldo += valor;
             return $"Depósito do valor {valor} na CONTA CORRENTE, foi realizado com sucesso.";
         }
 
-        public override string Saque(decimal valor)
+        public override string Saquar(decimal valor)
         {
             var mensagemComplementar = string.Empty;
 

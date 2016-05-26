@@ -14,8 +14,8 @@
             return $"Olá Sr(a). {nomeCliente}. " + ObterSaldo();
         }
 
-        public abstract string Saque(decimal valor);
+        public abstract string Saquar(decimal valor);
 
-        public abstract string Deposita(decimal valor);
+        public abstract string Depositar(decimal valor);
     }
 }
