@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\AnimalCommon.cs" />
     <Compile Include="Entities\Base\Animal.cs" />
     <Compile Include="Entities\Cachorro.cs" />
     <Compile Include="Entities\Gato.cs" />

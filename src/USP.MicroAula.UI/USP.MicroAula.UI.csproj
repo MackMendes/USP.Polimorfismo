@@ -49,6 +49,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\USP.MicroAula.Domain\USP.MicroAula.Domain.csproj">
+      <Project>{5d9d6b5f-95ec-4b11-8b8e-a6965f27b081}</Project>
+      <Name>USP.MicroAula.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

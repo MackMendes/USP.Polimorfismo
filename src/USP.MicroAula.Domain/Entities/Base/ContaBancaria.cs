@@ -6,7 +6,9 @@
 
         public string ObterSaldo()
         {
-            return $"Seu saldo é: {this.Saldo}";
+            // Quando incluir o R$, foi alterado em todos os "lugares", porque esse é um método que esta 
+            // sendo utilizado em vários lugares. 
+            return $"Seu saldo é: R$ {this.Saldo}";
         }
 
         public string ObterSaldo(string nomeCliente)
@@ -14,7 +16,7 @@
             return $"Olá Sr(a). {nomeCliente}. " + ObterSaldo();
         }
 
-        public abstract string Saquar(decimal valor);
+        public abstract string Sacar(decimal valor);
 
         public abstract string Depositar(decimal valor);
     }

@@ -15,7 +15,7 @@
             return $"Depósito do valor {valor} na CONTA CORRENTE, foi realizado com sucesso.";
         }
 
-        public override string Saquar(decimal valor)
+        public override string Sacar(decimal valor)
         {
             var mensagemComplementar = string.Empty;
 

@@ -14,7 +14,7 @@
             return $"Depósito do valor {valor} na CONTA POUPANÇA, foi realizado com sucesso.";
         }
 
-        public override string Saquar(decimal valor)
+        public override string Sacar(decimal valor)
         {
             if (valor <= 0 || (base.Saldo - valor) <= 0)
                 return "Saldo insulficiente na CONTA POUPANÇA.";
